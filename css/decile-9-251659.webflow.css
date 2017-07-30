@@ -29,7 +29,7 @@
 }
 
 .hero_msg {
-  margin-top: 144px;
+  margin-top: 54px;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   font-family: Exo, sans-serif;
@@ -39,14 +39,14 @@
 }
 
 .image {
-  margin-top: 3px;
+  margin-top: 7px;
   margin-bottom: 3px;
 }
 
 .hero_para {
   margin-top: 45px;
   font-family: Exo, sans-serif;
-  color: #64b5f6;
+  color: #fff;
   font-size: 19px;
   line-height: 35px;
   font-weight: 300;
@@ -146,10 +146,12 @@
 }
 
 .problem_subtitle {
-  margin-top: 18px;
+  margin-top: 0px;
   font-family: Exo, sans-serif;
   color: #5d5c5c;
   font-size: 18px;
+  line-height: 30px;
+  font-style: italic;
   font-weight: 500;
   text-align: center;
 }
@@ -187,11 +189,11 @@
 }
 
 .trends {
-  min-height: 1000px;
-  background-image: url('../images/wave.png');
-  background-position: 50% 101%;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  min-height: 1200px;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: repeat;
   background-attachment: scroll;
 }
 
@@ -240,15 +242,15 @@
 }
 
 .rec1 {
-  background-image: -webkit-linear-gradient(318deg, #312a6c, #852d91);
-  background-image: linear-gradient(132deg, #312a6c, #852d91);
+  background-image: -webkit-linear-gradient(318deg, #036, #004b96);
+  background-image: linear-gradient(132deg, #036, #004b96);
   color: #fff;
 }
 
 .rec2 {
   height: 100vh;
-  background-image: -webkit-linear-gradient(270deg, rgba(143, 0, 0, .25), rgba(143, 0, 0, .25)), url('../images/gaelle-marcel-156147.jpg');
-  background-image: linear-gradient(180deg, rgba(143, 0, 0, .25), rgba(143, 0, 0, .25)), url('../images/gaelle-marcel-156147.jpg');
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 51, 102, .4), rgba(0, 51, 102, .4)), url('../images/gaelle-marcel-156147.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 51, 102, .4), rgba(0, 51, 102, .4)), url('../images/gaelle-marcel-156147.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -328,8 +330,6 @@
 
 .about {
   height: 100vh;
-  background-image: -webkit-linear-gradient(316deg, #2f80ed, #56ccf2);
-  background-image: linear-gradient(134deg, #2f80ed, #56ccf2);
 }
 
 .div-block {
@@ -398,13 +398,13 @@
 }
 
 .mus {
-  height: 550px;
-  background-image: url('../images/mus.png'), -webkit-linear-gradient(270deg, #000, #000);
-  background-image: url('../images/mus.png'), linear-gradient(180deg, #000, #000);
-  background-position: 50% 50%, 0px 0px;
-  background-size: cover, auto;
-  background-repeat: no-repeat, repeat;
-  background-attachment: scroll, scroll;
+  height: 600px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/mus.png'), -webkit-linear-gradient(270deg, #000, #000);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/mus.png'), linear-gradient(180deg, #000, #000);
+  background-position: 0px 0px, 50% 50%, 0px 0px;
+  background-size: auto, cover, auto;
+  background-repeat: repeat, no-repeat, repeat;
+  background-attachment: scroll, scroll, scroll;
 }
 
 .footer {
@@ -446,4 +446,38 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.facebook {
+  margin-top: 22px;
+}
+
+.twitter {
+  margin-top: 6px;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.link {
+  padding: 3px;
+  color: #fff;
+}
+
+.unordered-list-2 {
+  padding: 87px;
 }
