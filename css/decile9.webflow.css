@@ -446,12 +446,13 @@
 }
 
 .facebook {
+  width: 70px;
   margin-top: auto;
 }
 
 .twitter {
-  width: 140px;
   margin-top: auto;
+  margin-right: 15px;
 }
 
 .div-block-4 {
@@ -562,9 +563,6 @@
     padding-top: 10px;
   }
   .facebook {
-    width: 140px;
-  }
-  .twitter {
     width: 140px;
   }
   .div-block-4 {
