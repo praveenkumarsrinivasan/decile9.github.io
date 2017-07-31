@@ -560,6 +560,9 @@
   .column-3.offset {
     text-align: center;
   }
+  .link {
+    font-family: Exo, sans-serif;
+  }
   .container-6 {
     padding: 10px;
   }
