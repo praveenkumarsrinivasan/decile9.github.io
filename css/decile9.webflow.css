@@ -141,7 +141,7 @@
 .problem_trend {
   background-image: url('../images/community.png');
   background-position: 50% 100%;
-  background-size: auto;
+  background-size: contain;
   background-repeat: repeat-x;
   background-attachment: scroll;
 }
@@ -474,6 +474,7 @@
 
 .link {
   padding: 3px;
+  font-family: Exo, sans-serif;
   color: #fff;
   font-size: 16px;
   line-height: 25px;
